@@ -89,3 +89,15 @@ console.log(randomString);
 
 
 
+//There are two types of ways to write a function. The longhand way and the shorthand way.
+//In technical terms, the longhand version is known as a function expression.
+//The shorthand version is known as a function declaration.
+
+
+var double = function(number){
+    return number *2;
+};
+
+function double(number){
+    return number*2;
+}
