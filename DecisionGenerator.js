@@ -8,4 +8,4 @@ var phrases = [
 
 //Should I have another bubble tea
 
-phrases[Math.floor(Math.random()*5)];
+console.log(phrases[Math.floor(Math.random()*5)]);
