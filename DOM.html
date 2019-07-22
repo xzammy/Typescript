@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Playing with the DOM</title>
+</head>
+
+<body>
+    <h1 id="main-heading">Hello world!</h1>
+
+    <script>
+        var headingElement = document.getElementById("main-heading");
+        //For example, we can use the innerHTML property to retrieve and replace the text inside the selected element
+        console.log(headingElement.innerHTML);
+        var newHeadingText = prompt("Please provide a new heading:");
+        headingElement.innerHTML = newHeadingText;
+    </script>
+</body>
+
+</html>
